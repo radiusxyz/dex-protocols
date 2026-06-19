@@ -1,4 +1,4 @@
-// src/dex-protocols/aerodrome-finance/slipstream/observation-math.ts
+// src/aerodrome-finance/slipstream/observation-math.ts
 
 import { U32 } from './constants';
 

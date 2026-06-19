@@ -1,4 +1,4 @@
-// src/dex-protocols/aerodrome-finance/slipstream/fee.ts
+// src/aerodrome-finance/slipstream/fee.ts
 import {
   DEFAULT_FEE_CAP,
   DEFAULT_SCALING_FACTOR,

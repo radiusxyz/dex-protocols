@@ -8,18 +8,15 @@
       "types": "./dist/index.d.ts",
       "default": "./dist/index.js"
     },
-    "./dex-protocols/*": {
-      "types": "./dist/dex-protocols/*.d.ts",
-      "default": "./dist/dex-protocols/*.js"
+    "./*": {
+      "types": "./dist/*.d.ts",
+      "default": "./dist/*.js"
     },
     "./utils/*": {
       "types": "./dist/utils/*.d.ts",
       "default": "./dist/utils/*.js"
-    },
-    "./*": {
-      "types": "./dist/*.d.ts",
-      "default": "./dist/*.js"
     }
+    
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
