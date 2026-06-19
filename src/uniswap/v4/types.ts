@@ -1,4 +1,4 @@
-import type { Addr } from '../../../types/index';
+import type { Addr } from '../../types/index';
 import type { Tick, TickBitmap, TickSpacing } from '../../core/clmm/types';
 
 export type UniswapV4TickInfo = {

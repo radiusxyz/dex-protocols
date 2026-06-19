@@ -1,5 +1,5 @@
 import type { EkuboV3PoolKind } from './types';
-import type { Addr } from '../../../types/index';
+import type { Addr } from '../../types/index';
 
 export type EkuboV3Domain = 'concentrated' | 'stableswap' | 'stableswap-extension';
 

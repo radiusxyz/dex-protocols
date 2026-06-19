@@ -1,4 +1,4 @@
-import { divRoundingUp, mulDiv, mulDivRoundingUp } from '../../../utils/math';
+import { divRoundingUp, mulDiv, mulDivRoundingUp } from '../../utils/math';
 
 import { FEE_DENOMINATOR, Q128 } from './constants';
 

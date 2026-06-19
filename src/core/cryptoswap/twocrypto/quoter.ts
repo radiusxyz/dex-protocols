@@ -5,7 +5,7 @@ import {
 } from './swap-math';
 
 import type { CryptoSwapPoolInfo, CryptoSwapRuntime } from '../types';
-import type { Addr } from '../../../../types/index';
+import type { Addr } from '../../../types/index';
 
 export type TwoCryptoQuoterParams<I extends CryptoSwapPoolInfo = CryptoSwapPoolInfo> = {
   amountIn: bigint;

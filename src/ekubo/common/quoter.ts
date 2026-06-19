@@ -1,4 +1,4 @@
-import { mulDiv } from '../../../utils/math';
+import { mulDiv } from '../../utils/math';
 
 import { addLiquidity, computeSwapStepExactIn } from './clmm-swap-math';
 import { FEE_DENOMINATOR, MAX_SQRT_RATIO, MAX_TICK, MIN_SQRT_RATIO, MIN_TICK, Q256 } from './constants';

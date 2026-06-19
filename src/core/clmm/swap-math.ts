@@ -1,5 +1,5 @@
 import { FEE_DENOMINATOR, Q96, MAX_UINT256 } from './constants';
-import { divRoundingUp, mulDiv, mulDivRoundingUp, pow10 } from '../../../utils/math';
+import { divRoundingUp, mulDiv, mulDivRoundingUp, pow10 } from '../../utils/math';
 
 import { leastSignificantBit } from './tick-math';
 

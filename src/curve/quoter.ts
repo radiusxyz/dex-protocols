@@ -4,7 +4,7 @@ import { createQuoter as createTwoCryptoQuoter } from '../core/cryptoswap/twocry
 import { createQuoter as createStableSwapQuoter } from '../core/stableswap/quoter';
 
 import type { CurvePoolInfo, CurvePoolRuntime } from './types';
-import type { Addr } from '../../types/index';
+import type { Addr } from '../types/index';
 
 export type CurveQuoterParams = {
   amountIn: bigint;
