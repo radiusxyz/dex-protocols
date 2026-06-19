@@ -1,4 +1,4 @@
-import { MAX_UINT256 } from '@src/dex-protocols/core/clmm/constants';
+import { MAX_UINT256 } from '../../../core/clmm/constants';
 
 export class FullMath {
   static mulDiv(a: bigint, b: bigint, denominator: bigint): bigint {

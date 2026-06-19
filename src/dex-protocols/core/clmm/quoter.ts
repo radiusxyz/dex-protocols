@@ -1,6 +1,6 @@
 // src/protocols/uniswap/v3/quote.ts
 
-import { mulDiv } from '@src/utils/math';
+import { mulDiv } from '../../../utils/math';
 
 import { MAX_SQRT_RATIO, MIN_SQRT_RATIO, Q192, FEE_DENOMINATOR, MIN_TICK, MAX_TICK } from './constants';
 import { addLiquidity, computeSwapStepExactIn } from './swap-math';

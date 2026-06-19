@@ -1,4 +1,4 @@
-import { Addr } from '@src/types';
+import { Addr } from '../../../types/index';
 
 export type Tick = number;
 export type TickSpacing = number;

@@ -3,7 +3,7 @@ import {
   UniswapV3PoolState,
   UniswapV3PoolUpdate,
   UniswapV3PoolRuntime,
-} from '@src/dex-protocols/core/clmm/types';
+} from '../../core/clmm/types';
 
 export type PancakeSwapV3PoolInfo = UniswapV3PoolInfo;
 export type PancakeSwapV3PoolState = UniswapV3PoolState;

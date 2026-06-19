@@ -1,5 +1,5 @@
-import type { Addr } from '@src/types';
-import type { Tick, TickBitmap, TickSpacing } from '@src/dex-protocols/core/clmm/types';
+import type { Addr } from '../../../types/index';
+import type { Tick, TickBitmap, TickSpacing } from '../../core/clmm/types';
 
 export type UniswapV4TickInfo = {
   liquidityGross: bigint;

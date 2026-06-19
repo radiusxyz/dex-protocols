@@ -1,6 +1,6 @@
 // src/dex-protocols/aerodrome-finance/slipstream/observation-math.ts
 
-import { U32 } from '@src/dex-protocols/aerodrome-finance/slipstream/constants';
+import { U32 } from './constants';
 
 // --- Types you already have ---
 export type Observation = {

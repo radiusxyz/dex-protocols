@@ -1,4 +1,4 @@
-import { Addr } from '@src/types';
+import { Addr } from '../../../types/index';
 
 export type UniswapV2PoolInfo = {
   token0: Addr;

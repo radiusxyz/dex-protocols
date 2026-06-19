@@ -5,8 +5,8 @@ import {
   MIN_OBSERVATION_CARDINALITY,
   SCALING_PRECISION,
   ZERO_FEE_INDICATOR,
-} from '@src/dex-protocols/aerodrome-finance/slipstream/constants';
-import { DynamicFeeConfig, Observation } from '@src/dex-protocols/aerodrome-finance/slipstream/types';
+} from './constants';
+import { DynamicFeeConfig, Observation } from './types';
 
 type ObserveTickCumulativesParams = {
   blockTimestamp: number;

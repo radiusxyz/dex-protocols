@@ -3,7 +3,7 @@ import {
   UniswapV2PoolState,
   UniswapV2PoolUpdate,
   UniswapV2PoolRuntime,
-} from '@src/dex-protocols/core/cpmm/types';
+} from '../../core/cpmm/types';
 
 export type AerodromeSlipstreamVolatilePoolInfo = UniswapV2PoolInfo;
 export type AerodromeSlipstreamVolatilePoolState = UniswapV2PoolState;

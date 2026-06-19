@@ -2,8 +2,8 @@ import {
   buildTickBitmap,
   clearInitializedInBitmap,
   setInitializedInBitmap,
-} from '@src/dex-protocols/core/clmm/tick-math';
-import type { Tick } from '@src/dex-protocols/core/clmm/types';
+} from '../../core/clmm/tick-math';
+import type { Tick } from '../../core/clmm/types';
 
 import type { UniswapV4PoolInfo, UniswapV4PoolRuntime, UniswapV4PoolState, UniswapV4PoolUpdate } from './types';
 

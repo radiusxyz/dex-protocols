@@ -1,4 +1,4 @@
-import { createPricer } from '@src/dex-protocols/core/clmm/pricer';
+import { createPricer } from '../../core/clmm/pricer';
 
 import { createQuoter } from './quoter';
 import { createReducer } from './reducer';

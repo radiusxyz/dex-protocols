@@ -1,4 +1,4 @@
-import { createPricer as createClmmPricer } from '@src/dex-protocols/core/clmm/pricer';
+import { createPricer as createClmmPricer } from '../../core/clmm/pricer';
 
 import type { UniswapV4PoolRuntime } from './types';
 

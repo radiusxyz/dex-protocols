@@ -1,8 +1,8 @@
 // src/protocols/aerodrome-finance/slipstream/quoter.ts
 
-import { resolveSlipstreamFeePips } from '@src/dex-protocols/aerodrome-finance/slipstream/fee';
-import { observeTickCumulativesSlipstream } from '@src/dex-protocols/aerodrome-finance/slipstream/observation-math';
-import { uniswapV3Module } from '@src/dex-protocols/uniswap/v3';
+import { resolveSlipstreamFeePips } from './fee';
+import { observeTickCumulativesSlipstream } from './observation-math';
+import { uniswapV3Module } from '../../uniswap/v3/index';
 
 import { DEFAULT_SECONDS_AGO } from './constants';
 import { Tick, AerodromeSlipstreamPoolRuntime } from './types';

@@ -2,7 +2,7 @@ import {
   buildTickBitmap,
   clearInitializedInBitmap,
   setInitializedInBitmap,
-} from '@src/dex-protocols/core/clmm/tick-math';
+} from '../../core/clmm/tick-math';
 
 import type {
   AerodromeSlipstreamPoolInfo,

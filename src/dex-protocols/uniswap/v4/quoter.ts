@@ -1,12 +1,12 @@
-import { MAX_SQRT_RATIO, MAX_TICK, MIN_SQRT_RATIO, MIN_TICK } from '@src/dex-protocols/core/clmm/constants';
-import { addLiquidity } from '@src/dex-protocols/core/clmm/swap-math';
+import { MAX_SQRT_RATIO, MAX_TICK, MIN_SQRT_RATIO, MIN_TICK } from '../../core/clmm/constants';
+import { addLiquidity } from '../../core/clmm/swap-math';
 import {
   getSqrtRatioAtTick,
   getTickAtSqrtRatio,
   nextInitializedTickWithinOneWord,
-} from '@src/dex-protocols/core/clmm/tick-math';
-import type { Tick } from '@src/dex-protocols/core/clmm/types';
-import type { UniswapV4PoolRuntime } from '@src/dex-protocols/uniswap/v4/types';
+} from '../../core/clmm/tick-math';
+import type { Tick } from '../../core/clmm/types';
+import type { UniswapV4PoolRuntime } from './types';
 
 import { LPFeeLibrary } from './contract-math/LPFeeLibrary';
 import { ProtocolFeeLibrary } from './contract-math/ProtocolFeeLibrary';

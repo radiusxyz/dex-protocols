@@ -1,4 +1,4 @@
-import { FEE_DENOMINATOR } from '@src/dex-protocols/core/clmm/constants';
+import { FEE_DENOMINATOR } from '../../../core/clmm/constants';
 
 import { FullMath } from './FullMath';
 import { SqrtPriceMath } from './SqrtPriceMath';

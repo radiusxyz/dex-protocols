@@ -6,7 +6,7 @@ import {
   MIN_TICK,
   POWERS_OF_2,
   Q32,
-} from '@src/dex-protocols/core/clmm/constants';
+} from './constants';
 
 import { BitMapWord, BitPos, WordPos } from './types';
 

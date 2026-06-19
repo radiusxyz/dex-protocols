@@ -1,7 +1,7 @@
 // You need the “next initialized tick” in direction.
 // With ticksSorted this is easy via binary search.
 
-import { UniswapV3PoolInfo, UniswapV3PoolState, UniswapV3PoolUpdate } from '@src/dex-protocols/uniswap/v3/types';
+import { UniswapV3PoolInfo, UniswapV3PoolState, UniswapV3PoolUpdate } from '../../uniswap/v3/types';
 // Current tick, can be negative, can be uninitialized
 export type Tick = number;
 // Tick spacing, always positive

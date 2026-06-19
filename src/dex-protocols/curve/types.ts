@@ -1,4 +1,4 @@
-import { Addr } from '@src/types';
+import { Addr } from '../../types/index';
 
 import { CryptoSwapPoolInfo, CryptoSwapPoolState, CryptoSwapPoolUpdate } from '../core/cryptoswap/types';
 

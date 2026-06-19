@@ -1,4 +1,4 @@
-import { FEE_DENOMINATOR } from '@src/dex-protocols/core/cpmm/constants';
+import { FEE_DENOMINATOR } from './constants';
 
 import { UniswapV2PoolRuntime } from './types';
 

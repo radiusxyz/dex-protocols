@@ -1,4 +1,4 @@
-import { createQuoter as createStableSwapQuoter } from '@src/dex-protocols/core/stableswap/quoter';
+import { createQuoter as createStableSwapQuoter } from '../../core/stableswap/quoter';
 
 import { resolveEkuboV3Domain } from './domain';
 import { quoteExactIn, quoteMidFeePips as quoteMidFeePipsCommon } from '../common/quoter';

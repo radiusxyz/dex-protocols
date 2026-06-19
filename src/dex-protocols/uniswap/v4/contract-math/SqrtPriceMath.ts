@@ -1,4 +1,4 @@
-import { Q96 } from '@src/dex-protocols/core/clmm/constants';
+import { Q96 } from '../../../core/clmm/constants';
 
 import { FullMath } from './FullMath';
 import { UnsafeMath } from './UnsafeMath';

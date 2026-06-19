@@ -1,6 +1,6 @@
-import { createPricer } from '@src/dex-protocols/core/clmm/pricer';
-import { createQuoter } from '@src/dex-protocols/core/clmm/quoter';
-import { createReducer } from '@src/dex-protocols/core/clmm/reducer';
+import { createPricer } from '../../core/clmm/pricer';
+import { createQuoter } from '../../core/clmm/quoter';
+import { createReducer } from '../../core/clmm/reducer';
 
 export const sushiSwapV3Module = {
   reducer: createReducer(),

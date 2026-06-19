@@ -1,4 +1,4 @@
-import { reduceRatio } from '@src/dex-protocols/core/clmm/pricer';
+import { reduceRatio } from '../../core/clmm/pricer';
 
 export type EkuboV2PricerParams = {
   sqrtRatioX128: bigint;

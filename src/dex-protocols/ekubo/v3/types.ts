@@ -1,4 +1,4 @@
-import { Addr } from '@src/types';
+import { Addr } from '../../../types/index';
 
 export type EkuboV3PoolFamily = 'clmm' | 'stableswap';
 export type EkuboV3PoolKind = 'concentrated' | 'stableswap';

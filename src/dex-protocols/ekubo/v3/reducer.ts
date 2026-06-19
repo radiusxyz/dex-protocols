@@ -1,5 +1,5 @@
-import { AMPLIFICATION_PRECISION, CURVE_FEE_DENOMINATOR } from '@src/dex-protocols/core/stableswap/constants';
-import { createReducer as createStableSwapReducer } from '@src/dex-protocols/core/stableswap/reducer';
+import { AMPLIFICATION_PRECISION, CURVE_FEE_DENOMINATOR } from '../../core/stableswap/constants';
+import { createReducer as createStableSwapReducer } from '../../core/stableswap/reducer';
 
 import { resolveEkuboV3Domain } from './domain';
 import { buildTickBitmap, clearInitializedInBitmap, setInitializedInBitmap } from '../common/tick-math';
