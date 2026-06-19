@@ -20,7 +20,7 @@ with deterministic fixtures instead of live RPC, database, or app-context IO.
 - Uniswap v2 and v3
 
 The first extraction keeps the original internal source layout under
-`src/domain/dex-protocols` to minimize churn. Public consumers should prefer the
+`src/dex-protocols` to minimize churn. Public consumers should prefer the
 root module exports or explicit subpath imports.
 
 ## Checks

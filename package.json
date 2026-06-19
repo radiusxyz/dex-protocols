@@ -8,17 +8,17 @@
       "types": "./dist/index.d.ts",
       "default": "./dist/index.js"
     },
-    "./domain/dex-protocols/*": {
-      "types": "./dist/domain/dex-protocols/*.d.ts",
-      "default": "./dist/domain/dex-protocols/*.js"
+    "./dex-protocols/*": {
+      "types": "./dist/dex-protocols/*.d.ts",
+      "default": "./dist/dex-protocols/*.js"
     },
-    "./domain/utils/*": {
-      "types": "./dist/domain/utils/*.d.ts",
-      "default": "./dist/domain/utils/*.js"
+    "./utils/*": {
+      "types": "./dist/utils/*.d.ts",
+      "default": "./dist/utils/*.js"
     },
-    "./common/*": {
-      "types": "./dist/common/*.d.ts",
-      "default": "./dist/common/*.js"
+    "./*": {
+      "types": "./dist/*.d.ts",
+      "default": "./dist/*.js"
     }
   },
   "main": "./dist/index.js",

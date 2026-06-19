@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
-import { getSlipstreamDefaultBaseFeePips } from '@src/domain/dex-protocols/aerodrome-finance/slipstream/fee';
+import { getSlipstreamDefaultBaseFeePips } from '@src/dex-protocols/aerodrome-finance/slipstream/fee';
 
 describe('Slipstream fee defaults', () => {
   it.each([
