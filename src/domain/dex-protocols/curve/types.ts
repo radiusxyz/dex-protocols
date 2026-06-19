@@ -1,0 +1,33 @@
+import { Token } from '@src/common/types';
+
+import { CryptoSwapPoolInfo, CryptoSwapPoolState, CryptoSwapPoolUpdate } from '../core/cryptoswap/types';
+
+export type CurvePoolFamily = 'unknown' | 'stableswap' | 'cryptoswap';
+
+export type CurvePoolKind =
+  | 'unknown'
+  | 'llamma'
+  | 'stableswap'
+  | 'stableswap-ng'
+  | 'cryptoswap'
+  | 'tricrypto'
+  | 'tricrypto-ng'
+  | 'twocrypto'
+  | 'twocrypto-ng';
+
+export type CurvePoolInfo = CryptoSwapPoolInfo & {
+  poolFamily: CurvePoolFamily;
+  poolKind: CurvePoolKind;
+  staticAttributes?: Record<string, unknown>;
+};
+
+export type CurvePoolState = CryptoSwapPoolState & {
+  coins?: Token[];
+};
+
+export type CurvePoolUpdate = CryptoSwapPoolUpdate;
+
+export type CurvePoolRuntime = {
+  info: CurvePoolInfo;
+  state: CurvePoolState;
+};

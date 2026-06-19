@@ -1,0 +1,13 @@
+export const PRECISION = 10n ** 18n;
+export const FEE_DENOMINATOR = 10n ** 10n;
+export const AMPLIFICATION_PRECISION = 100n;
+export const DECIMALS_TARGET = 18;
+export const GAMMA_PRECISION = 10n ** 18n;
+export const N_COINS = 2n;
+export const WAD = 10n ** 18n;
+export const A_MULTIPLIER = 10_000n;
+export const MIN_GAMMA = 10n ** 10n;
+export const MAX_GAMMA_SMALL = 2n * 10n ** 16n;
+export const MAX_GAMMA = 199n * 10n ** 15n;
+export const MIN_A = 4000n;
+export const MAX_A = 400_000_000n;
