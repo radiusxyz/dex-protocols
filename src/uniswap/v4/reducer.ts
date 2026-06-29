@@ -29,12 +29,17 @@ export function createReducer(): UniswapV4Reducer {
       ticks: toBitmapTicks(ticks),
       tickSpacing: info.tickSpacing,
     });
+    const lpFeeFromInfo = info.feePips !== undefined ? BigInt(info.feePips) : undefined;
+    const lpFee = state.slot0.lpFee !== 0n ? state.slot0.lpFee : (lpFeeFromInfo ?? state.slot0.lpFee);
 
     return {
       info: { ...info },
       state: {
         ...state,
-        slot0: { ...state.slot0 },
+        slot0: {
+          ...state.slot0,
+          lpFee,
+        },
         ticks,
       },
       _temp: { tickBitmap },

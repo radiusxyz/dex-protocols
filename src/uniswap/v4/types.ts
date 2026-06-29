@@ -26,6 +26,7 @@ export type UniswapV4PoolInfo = {
   token0: Addr;
   token1: Addr;
   tickSpacing: TickSpacing;
+  feePips?: number;
   hooks?: Addr;
 };
 
