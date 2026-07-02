@@ -1,8 +1,8 @@
-import {
+import type {
   UniswapV3PoolInfo,
+  UniswapV3PoolRuntime,
   UniswapV3PoolState,
   UniswapV3PoolUpdate,
-  UniswapV3PoolRuntime,
 } from '../../core/clmm/types';
 
 export type PancakeSwapV3PoolInfo = UniswapV3PoolInfo;

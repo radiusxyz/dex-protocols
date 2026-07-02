@@ -746,7 +746,7 @@ export function analyzeTriCryptoQuote<I extends TriCryptoQuoterParams = TriCrypt
       finalAmountOut = noFeeAmountOut - feeAmount;
     }
     const finalDyNet = buildTriCryptoXpFromRawBalances(
-      balances.map((balance, index) => (index === tokenOutIndex ? finalAmountOut : 0n)),
+      balances.map((_balance, index) => (index === tokenOutIndex ? finalAmountOut : 0n)),
       precisions,
       priceScale,
     );

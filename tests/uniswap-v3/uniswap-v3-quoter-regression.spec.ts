@@ -3,8 +3,8 @@ import { describe, expect, it } from 'vitest';
 import { getAmount0Delta, getAmount1Delta } from '../../src/core/clmm/swap-math';
 import { getSqrtRatioAtTick, nextInitializedTickWithinOneWord } from '../../src/core/clmm/tick-math';
 import type { TickBitmap } from '../../src/core/clmm/types';
-import { mulDivRoundingUp } from '../../src/utils/math';
 import { uniswapV3Module } from '../../src/uniswap/v3';
+import { mulDivRoundingUp } from '../../src/utils/math';
 
 import { capturedUniswapV3Fixture } from './captured-fixture';
 import { uniswapV3BoundaryQuoteCases, uniswapV3GeometricProgressiveQuoteCases } from './quoter-regression-fixtures';
@@ -104,8 +104,7 @@ describe('Uniswap V3 captured quoter regressions', () => {
       expect(computedNextTick).toBe(nextTick);
 
       const sqrtPTarget = getSqrtRatioAtTick(nextTick);
-      const targetSqrtPriceLimitX96 =
-        mode === 'clamp' ? (zeroForOne ? sqrtPTarget + 1n : sqrtPTarget - 1n) : 0n;
+      const targetSqrtPriceLimitX96 = mode === 'clamp' ? (zeroForOne ? sqrtPTarget + 1n : sqrtPTarget - 1n) : 0n;
       const targetSqrt = mode === 'clamp' ? targetSqrtPriceLimitX96 : sqrtPTarget;
       const amountInNoFee = zeroForOne
         ? getAmount0Delta(targetSqrt, sqrtPCurr, liquidity, true)

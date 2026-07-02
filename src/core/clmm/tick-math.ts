@@ -1,14 +1,6 @@
-import {
-  MAX_SQRT_RATIO,
-  MAX_TICK,
-  MAX_UINT256,
-  MIN_SQRT_RATIO,
-  MIN_TICK,
-  POWERS_OF_2,
-  Q32,
-} from './constants';
+import { MAX_SQRT_RATIO, MAX_TICK, MAX_UINT256, MIN_SQRT_RATIO, MIN_TICK, POWERS_OF_2, Q32 } from './constants';
 
-import { BitMapWord, BitPos, WordPos } from './types';
+import type { BitMapWord, BitPos, WordPos } from './types';
 
 // helpers
 function mulShift(val: bigint, mulByHex: string): bigint {

@@ -1,6 +1,6 @@
-import { resolveCurveDomain } from './domain';
 import { createReducer as createCryptoSwapReducer } from '../core/cryptoswap/reducer';
 import { createReducer as createStableSwapReducer } from '../core/stableswap/reducer';
+import { resolveCurveDomain } from './domain';
 
 import type { CurvePoolInfo, CurvePoolRuntime, CurvePoolState, CurvePoolUpdate } from './types';
 

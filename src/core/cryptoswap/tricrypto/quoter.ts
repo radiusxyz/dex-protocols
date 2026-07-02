@@ -1,7 +1,7 @@
-import { analyzeTriCryptoQuote as analyzeTriCryptoQuoteMath, quoteTriCrypto as quoteTriCryptoMath } from './swap-math';
+import type { Addr } from '../../../types/index';
 
 import type { CryptoSwapPoolInfo, CryptoSwapRuntime } from '../types';
-import type { Addr } from '../../../types/index';
+import { analyzeTriCryptoQuote as analyzeTriCryptoQuoteMath, quoteTriCrypto as quoteTriCryptoMath } from './swap-math';
 
 export type TriCryptoQuoterParams<I extends CryptoSwapPoolInfo = CryptoSwapPoolInfo> = {
   amountIn: bigint;

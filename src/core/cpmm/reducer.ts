@@ -1,4 +1,4 @@
-import type { UniswapV2PoolInfo, UniswapV2PoolState, UniswapV2PoolUpdate, UniswapV2PoolRuntime } from './types';
+import type { UniswapV2PoolInfo, UniswapV2PoolRuntime, UniswapV2PoolState, UniswapV2PoolUpdate } from './types';
 
 export type UniswapV2Reducer = {
   init(info: UniswapV2PoolInfo, state: UniswapV2PoolState): UniswapV2PoolRuntime;

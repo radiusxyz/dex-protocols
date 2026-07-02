@@ -1,13 +1,9 @@
-import {
-  buildTickBitmap,
-  clearInitializedInBitmap,
-  setInitializedInBitmap,
-} from '../../core/clmm/tick-math';
+import { buildTickBitmap, clearInitializedInBitmap, setInitializedInBitmap } from '../../core/clmm/tick-math';
 
 import type {
   AerodromeSlipstreamPoolInfo,
-  AerodromeSlipstreamPoolState,
   AerodromeSlipstreamPoolRuntime,
+  AerodromeSlipstreamPoolState,
   AerodromeSlipstreamPoolUpdate,
 } from './types';
 

@@ -2,10 +2,10 @@
 
 import { mulDiv } from '../../utils/math';
 
-import { MAX_SQRT_RATIO, MIN_SQRT_RATIO, Q192, FEE_DENOMINATOR, MIN_TICK, MAX_TICK } from './constants';
+import { FEE_DENOMINATOR, MAX_SQRT_RATIO, MAX_TICK, MIN_SQRT_RATIO, MIN_TICK, Q192 } from './constants';
 import { addLiquidity, computeSwapStepExactIn } from './swap-math';
 import { getSqrtRatioAtTick, getTickAtSqrtRatio, nextInitializedTickWithinOneWord } from './tick-math';
-import { Tick, UniswapV3PoolRuntime } from './types';
+import type { Tick, UniswapV3PoolRuntime } from './types';
 
 export type UniswapV3QuoterParams = {
   amountIn: bigint;

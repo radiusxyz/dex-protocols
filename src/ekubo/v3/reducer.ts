@@ -1,14 +1,13 @@
 import { AMPLIFICATION_PRECISION, CURVE_FEE_DENOMINATOR } from '../../core/stableswap/constants';
 import { createReducer as createStableSwapReducer } from '../../core/stableswap/reducer';
-
-import { resolveEkuboV3Domain } from './domain';
 import { buildTickBitmap, clearInitializedInBitmap, setInitializedInBitmap } from '../common/tick-math';
+import { resolveEkuboV3Domain } from './domain';
 
 import type {
   EkuboV3PoolInfo,
+  EkuboV3PoolRuntime,
   EkuboV3PoolState,
   EkuboV3PoolUpdate,
-  EkuboV3PoolRuntime,
   EkuboV3StablePoolInfo,
   EkuboV3StablePoolRuntime,
 } from './types';

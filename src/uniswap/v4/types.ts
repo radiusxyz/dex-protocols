@@ -1,5 +1,5 @@
-import type { Addr } from '../../types/index';
 import type { Tick, TickBitmap, TickSpacing } from '../../core/clmm/types';
+import type { Addr } from '../../types/index';
 
 export type UniswapV4TickInfo = {
   liquidityGross: bigint;
