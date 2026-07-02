@@ -1,4 +1,9 @@
-import { StableSwapPoolInfo, StableSwapPoolState, StableSwapPoolUpdate, StableSwapRuntime } from '../stableswap/types';
+import type {
+  StableSwapPoolInfo,
+  StableSwapPoolState,
+  StableSwapPoolUpdate,
+  StableSwapRuntime,
+} from '../stableswap/types';
 
 export type CryptoSwapPoolInfo = StableSwapPoolInfo;
 

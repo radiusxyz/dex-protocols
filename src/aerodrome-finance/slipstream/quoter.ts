@@ -1,11 +1,10 @@
 // src/protocols/aerodrome-finance/slipstream/quoter.ts
 
+import { uniswapV3Module } from '../../uniswap/v3/index';
+import { DEFAULT_SECONDS_AGO } from './constants';
 import { resolveSlipstreamFeePips } from './fee';
 import { observeTickCumulativesSlipstream } from './observation-math';
-import { uniswapV3Module } from '../../uniswap/v3/index';
-
-import { DEFAULT_SECONDS_AGO } from './constants';
-import { Tick, AerodromeSlipstreamPoolRuntime } from './types';
+import type { AerodromeSlipstreamPoolRuntime, Tick } from './types';
 
 export type AerodromeSlipstreamQuoterParams = {
   amountIn: bigint;

@@ -1,7 +1,7 @@
 // You need the “next initialized tick” in direction.
 // With ticksSorted this is easy via binary search.
 
-import { Addr } from '../../types/index';
+import type { Addr } from '../../types/index';
 // Current tick, can be negative, can be uninitialized
 export type Tick = number;
 // Tick spacing, always positive

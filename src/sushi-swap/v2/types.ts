@@ -1,8 +1,8 @@
-import {
+import type {
   UniswapV2PoolInfo,
+  UniswapV2PoolRuntime,
   UniswapV2PoolState,
   UniswapV2PoolUpdate,
-  UniswapV2PoolRuntime,
 } from '../../core/cpmm/types';
 
 export type SushiSwapV2PoolInfo = UniswapV2PoolInfo;

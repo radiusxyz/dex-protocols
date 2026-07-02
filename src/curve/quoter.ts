@@ -1,10 +1,9 @@
-import { resolveCurveDomain } from './domain';
 import { createQuoter as createTriCryptoQuoter } from '../core/cryptoswap/tricrypto/quoter';
 import { createQuoter as createTwoCryptoQuoter } from '../core/cryptoswap/twocrypto/quoter';
 import { createQuoter as createStableSwapQuoter } from '../core/stableswap/quoter';
-
-import type { CurvePoolInfo, CurvePoolRuntime } from './types';
 import type { Addr } from '../types/index';
+import { resolveCurveDomain } from './domain';
+import type { CurvePoolInfo, CurvePoolRuntime } from './types';
 
 export type CurveQuoterParams = {
   amountIn: bigint;
@@ -53,8 +52,8 @@ function resolveCurveQuoteDirection(runtime: CurvePoolRuntime, zeroForOne: boole
   const tokenOut = zeroForOne ? runtime.info.token1 : runtime.info.token0;
   const coins = normalizeCurveCoins(runtime);
 
-  const tokenInIndex = coins.findIndex((coin) => coin === tokenIn);
-  const tokenOutIndex = coins.findIndex((coin) => coin === tokenOut);
+  const tokenInIndex = coins.indexOf(tokenIn);
+  const tokenOutIndex = coins.indexOf(tokenOut);
 
   if (tokenInIndex < 0 || tokenOutIndex < 0) {
     throw new Error('Curve coin index not found');

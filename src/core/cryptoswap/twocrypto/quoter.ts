@@ -1,11 +1,11 @@
+import type { Addr } from '../../../types/index';
+
+import type { CryptoSwapPoolInfo, CryptoSwapRuntime } from '../types';
 import {
   analyzeTwoCryptoNgQuote as analyzeTwoCryptoNgQuoteMath,
   computeTwoCryptoNgDynamicFee as computeTwoCryptoNgDynamicFeeMath,
   quoteTwoCryptoNg as quoteTwoCryptoNgMath,
 } from './swap-math';
-
-import type { CryptoSwapPoolInfo, CryptoSwapRuntime } from '../types';
-import type { Addr } from '../../../types/index';
 
 export type TwoCryptoQuoterParams<I extends CryptoSwapPoolInfo = CryptoSwapPoolInfo> = {
   amountIn: bigint;
