@@ -8,6 +8,7 @@
       "!coverage",
       "!tests/**/captured-fixture.ts",
       "!tests/**/onchain-quote-captured-fixture.ts",
+      "!tests/**/quoter-v2-captured-fixture.ts",
       "!tests/uniswap-v3/quoter-regression-fixtures.ts"
     ]
   },

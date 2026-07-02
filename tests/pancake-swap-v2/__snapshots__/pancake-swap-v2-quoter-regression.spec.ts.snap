@@ -1,0 +1,246 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`PancakeSwap V2 quoter regressions > quotes explicit geometric quote-case fixtures 1`] = `
+[
+  {
+    "amountOut": 121n,
+    "reserve0": 76511724450724920937n,
+    "reserve1": 121777394261n,
+  },
+  {
+    "amountOut": 242n,
+    "reserve0": 76511724527236645311n,
+    "reserve1": 121777394140n,
+  },
+  {
+    "amountOut": 485n,
+    "reserve0": 76511724680260094059n,
+    "reserve1": 121777393897n,
+  },
+  {
+    "amountOut": 971n,
+    "reserve0": 76511724986306991555n,
+    "reserve1": 121777393411n,
+  },
+  {
+    "amountOut": 1942n,
+    "reserve0": 76511725598400786547n,
+    "reserve1": 121777392440n,
+  },
+  {
+    "amountOut": 3885n,
+    "reserve0": 76511726822588376531n,
+    "reserve1": 121777390497n,
+  },
+  {
+    "amountOut": 7770n,
+    "reserve0": 76511729270963556499n,
+    "reserve1": 121777386612n,
+  },
+  {
+    "amountOut": 15540n,
+    "reserve0": 76511734167713916435n,
+    "reserve1": 121777378842n,
+  },
+  {
+    "amountOut": 31081n,
+    "reserve0": 76511743961214636307n,
+    "reserve1": 121777363301n,
+  },
+  {
+    "amountOut": 62162n,
+    "reserve0": 76511763548216076051n,
+    "reserve1": 121777332220n,
+  },
+  {
+    "amountOut": 124325n,
+    "reserve0": 76511802722218955539n,
+    "reserve1": 121777270057n,
+  },
+  {
+    "amountOut": 248651n,
+    "reserve0": 76511881070224714515n,
+    "reserve1": 121777145731n,
+  },
+  {
+    "amountOut": 497301n,
+    "reserve0": 76512037766236232467n,
+    "reserve1": 121776897081n,
+  },
+  {
+    "amountOut": 994599n,
+    "reserve0": 76512351158259268371n,
+    "reserve1": 121776399783n,
+  },
+  {
+    "amountOut": 1989182n,
+    "reserve0": 76512977942305340179n,
+    "reserve1": 121775405200n,
+  },
+  {
+    "amountOut": 3978300n,
+    "reserve0": 76514231510397483795n,
+    "reserve1": 121773416082n,
+  },
+  {
+    "amountOut": 7956341n,
+    "reserve0": 76516738646581771027n,
+    "reserve1": 121769438041n,
+  },
+  {
+    "amountOut": 15911642n,
+    "reserve0": 76521752918950345491n,
+    "reserve1": 121761482740n,
+  },
+  {
+    "amountOut": 31819127n,
+    "reserve0": 76531781463687494419n,
+    "reserve1": 121745575255n,
+  },
+  {
+    "amountOut": 63621631n,
+    "reserve0": 76551838553161792275n,
+    "reserve1": 121713772751n,
+  },
+  {
+    "amountOut": 127176820n,
+    "reserve0": 76591952732110387987n,
+    "reserve1": 121650217562n,
+  },
+  {
+    "amountOut": 254088285n,
+    "reserve0": 76672181090007579411n,
+    "reserve1": 121523306097n,
+  },
+  {
+    "amountOut": 507118470n,
+    "reserve0": 76832637805801962259n,
+    "reserve1": 121270275912n,
+  },
+  {
+    "amountOut": 1010030861n,
+    "reserve0": 77153551237390727955n,
+    "reserve1": 120767363521n,
+  },
+  {
+    "amountOut": 75795223990n,
+    "reserve0": 76511724298417972573n,
+    "reserve1": 121777394503n,
+  },
+  {
+    "amountOut": 151590447831n,
+    "reserve0": 76511724222622748732n,
+    "reserve1": 121777394624n,
+  },
+  {
+    "amountOut": 303180895061n,
+    "reserve0": 76511724071032301502n,
+    "reserve1": 121777394866n,
+  },
+  {
+    "amountOut": 606361787720n,
+    "reserve0": 76511723767851408843n,
+    "reserve1": 121777395350n,
+  },
+  {
+    "amountOut": 1212723565830n,
+    "reserve0": 76511723161489630733n,
+    "reserve1": 121777396318n,
+  },
+  {
+    "amountOut": 2425447093217n,
+    "reserve0": 76511721948766103346n,
+    "reserve1": 121777398254n,
+  },
+  {
+    "amountOut": 4850894032660n,
+    "reserve0": 76511719523319163903n,
+    "reserve1": 121777402126n,
+  },
+  {
+    "amountOut": 9701787450221n,
+    "reserve0": 76511714672425746342n,
+    "reserve1": 121777409870n,
+  },
+  {
+    "amountOut": 19403572440044n,
+    "reserve0": 76511704970640756519n,
+    "reserve1": 121777425358n,
+  },
+  {
+    "amountOut": 38807135038499n,
+    "reserve0": 76511685567078158064n,
+    "reserve1": 121777456334n,
+  },
+  {
+    "amountOut": 77614230710666n,
+    "reserve0": 76511646759982485897n,
+    "reserve1": 121777518286n,
+  },
+  {
+    "amountOut": 155228303956246n,
+    "reserve0": 76511569145909240317n,
+    "reserve1": 121777642190n,
+  },
+  {
+    "amountOut": 310455978054057n,
+    "reserve0": 76511413918235142506n,
+    "reserve1": 121777889998n,
+  },
+  {
+    "amountOut": 620909436689712n,
+    "reserve0": 76511103464776506851n,
+    "reserve1": 121778385614n,
+  },
+  {
+    "amountOut": 1241808795828484n,
+    "reserve0": 76510482565417368079n,
+    "reserve1": 121779376846n,
+  },
+  {
+    "amountOut": 2483577282434563n,
+    "reserve0": 76509240796930762000n,
+    "reserve1": 121781359310n,
+  },
+  {
+    "amountOut": 4966993335829894n,
+    "reserve0": 76506757380877366669n,
+    "reserve1": 121785324238n,
+  },
+  {
+    "amountOut": 9933341818298848n,
+    "reserve0": 76501791032394897715n,
+    "reserve1": 121793254094n,
+  },
+  {
+    "amountOut": 19864104725407734n,
+    "reserve0": 76491860269487788829n,
+    "reserve1": 121809113806n,
+  },
+  {
+    "amountOut": 39717897822260926n,
+    "reserve0": 76472006476390935637n,
+    "reserve1": 121840833230n,
+  },
+  {
+    "amountOut": 79394581230773418n,
+    "reserve0": 76432329792982423145n,
+    "reserve1": 121904272078n,
+  },
+  {
+    "amountOut": 158624561144454789n,
+    "reserve0": 76353099813068741774n,
+    "reserve1": 122031149774n,
+  },
+  {
+    "amountOut": 316592760298970409n,
+    "reserve0": 76195131613914226154n,
+    "reserve1": 122284905166n,
+  },
+  {
+    "amountOut": 630576300986941520n,
+    "reserve0": 75881148073226255043n,
+    "reserve1": 122792415950n,
+  },
+]
+`;
