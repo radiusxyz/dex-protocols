@@ -6,7 +6,7 @@ import {
   SCALING_PRECISION,
   ZERO_FEE_INDICATOR,
 } from './constants';
-import { DynamicFeeConfig, Observation } from './types';
+import type { DynamicFeeConfig, Observation } from './types';
 
 type ObserveTickCumulativesParams = {
   blockTimestamp: number;

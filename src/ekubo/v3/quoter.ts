@@ -1,7 +1,6 @@
 import { createQuoter as createStableSwapQuoter } from '../../core/stableswap/quoter';
-
-import { resolveEkuboV3Domain } from './domain';
 import { quoteExactIn, quoteMidFeePips as quoteMidFeePipsCommon } from '../common/quoter';
+import { resolveEkuboV3Domain } from './domain';
 
 import type { EkuboV3ConcentratedPoolRuntime, EkuboV3PoolRuntime, EkuboV3StablePoolRuntime } from './types';
 

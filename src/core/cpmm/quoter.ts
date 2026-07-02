@@ -1,6 +1,6 @@
 import { FEE_DENOMINATOR } from './constants';
 
-import { UniswapV2PoolRuntime } from './types';
+import type { UniswapV2PoolRuntime } from './types';
 
 export type UniswapV2QuoterParams = {
   amountIn: bigint;

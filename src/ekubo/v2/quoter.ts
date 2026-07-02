@@ -1,5 +1,5 @@
-import { EkuboV2PoolRuntime, Tick } from './types';
 import { quoteExactIn, quoteMidFeePips as quoteMidFeePipsCommon } from '../common/quoter';
+import type { EkuboV2PoolRuntime, Tick } from './types';
 
 export type EkuboV2QuoterParams = {
   amountIn: bigint;
