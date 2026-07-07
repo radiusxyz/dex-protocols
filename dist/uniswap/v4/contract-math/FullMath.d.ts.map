@@ -1,0 +1,1 @@
+{"version":3,"file":"FullMath.d.ts","sourceRoot":"","sources":["../../../../src/uniswap/v4/contract-math/FullMath.ts"],"names":[],"mappings":"AAEA,qBAAa,QAAQ;IACnB,MAAM,CAAC,MAAM,CAAC,CAAC,EAAE,MAAM,EAAE,CAAC,EAAE,MAAM,EAAE,WAAW,EAAE,MAAM,GAAG,MAAM;IAQhE,MAAM,CAAC,gBAAgB,CAAC,CAAC,EAAE,MAAM,EAAE,CAAC,EAAE,MAAM,EAAE,WAAW,EAAE,MAAM,GAAG,MAAM;CAO3E"}

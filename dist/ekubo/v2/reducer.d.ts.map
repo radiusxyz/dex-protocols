@@ -1,0 +1,1 @@
+{"version":3,"file":"reducer.d.ts","sourceRoot":"","sources":["../../../src/ekubo/v2/reducer.ts"],"names":[],"mappings":"AAEA,OAAO,KAAK,EAAE,eAAe,EAAE,kBAAkB,EAAE,gBAAgB,EAAE,iBAAiB,EAAE,MAAM,SAAS,CAAC;AAExG,wBAAgB,aAAa;iBACP,eAAe,SAAS,gBAAgB,KAAG,kBAAkB;4BAclD,kBAAkB,UAAU,iBAAiB,KAAG,OAAO;EAkDvF"}

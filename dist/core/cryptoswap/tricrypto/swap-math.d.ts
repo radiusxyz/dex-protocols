@@ -1,0 +1,4 @@
+import type { TriCryptoQuoteAnalysis, TriCryptoQuoterParams, TriCryptoQuoterReturn } from './quoter';
+export declare function analyzeTriCryptoQuote<I extends TriCryptoQuoterParams = TriCryptoQuoterParams>({ amountIn, runtime, useLegacyMath, legacyProfile, tokenInIndex, tokenOutIndex, balances, fee, midFee, outFee, feeGamma, amplification, amplificationPrecision, gamma, nCoins, coinDecimals, precisions, priceScale, priceOracle, lastPrices, invariant, currentTimestamp, futureAGammaTime, }: I): TriCryptoQuoteAnalysis;
+export declare function quoteTriCrypto<I extends TriCryptoQuoterParams = TriCryptoQuoterParams>(params: I): TriCryptoQuoterReturn;
+//# sourceMappingURL=swap-math.d.ts.map
