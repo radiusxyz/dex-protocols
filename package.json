@@ -28,7 +28,6 @@
     "format:check": "biome format .",
     "lint": "biome lint .",
     "lint:fix": "biome check --write .",
-    "prepare": "pnpm run build",
     "test": "vitest run",
     "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.test.json",
     "check": "pnpm run typecheck && pnpm run lint && pnpm run format:check && pnpm run test",
