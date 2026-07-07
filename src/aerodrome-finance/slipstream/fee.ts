@@ -31,6 +31,8 @@ export function getSlipstreamDefaultBaseFeePips(tickSpacing: number): number {
       return 500;
     case 200:
       return 3000;
+    case 500:
+      return 10000;
     case 2000:
       return 10000;
     default:
