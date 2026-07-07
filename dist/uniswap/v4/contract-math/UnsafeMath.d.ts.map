@@ -1,0 +1,1 @@
+{"version":3,"file":"UnsafeMath.d.ts","sourceRoot":"","sources":["../../../../src/uniswap/v4/contract-math/UnsafeMath.ts"],"names":[],"mappings":"AAAA,qBAAa,UAAU;IACrB,MAAM,CAAC,aAAa,CAAC,CAAC,EAAE,MAAM,EAAE,CAAC,EAAE,MAAM,GAAG,MAAM;IAOlD,MAAM,CAAC,YAAY,CAAC,CAAC,EAAE,MAAM,EAAE,CAAC,EAAE,MAAM,EAAE,WAAW,EAAE,MAAM,GAAG,MAAM;CAMvE"}

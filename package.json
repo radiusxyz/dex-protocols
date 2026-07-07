@@ -31,7 +31,8 @@
     "prepare": "husky",
     "test": "vitest run",
     "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.test.json",
-    "check": "pnpm run typecheck && pnpm run lint && pnpm run format:check && pnpm run test"
+    "check": "pnpm run typecheck && pnpm run lint && pnpm run format:check && pnpm run test",
+    "deploy": "pnpm run check && pnpm run build"
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.1",

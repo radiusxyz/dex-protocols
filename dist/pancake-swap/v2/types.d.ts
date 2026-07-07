@@ -1,0 +1,6 @@
+import type { UniswapV2PoolInfo, UniswapV2PoolRuntime, UniswapV2PoolState, UniswapV2PoolUpdate } from '../../core/cpmm/types';
+export type PancakeSwapV2PoolInfo = UniswapV2PoolInfo;
+export type PancakeSwapV2PoolState = UniswapV2PoolState;
+export type PancakeSwapV2PoolUpdate = UniswapV2PoolUpdate;
+export type PancakeSwapV2PoolRuntime = UniswapV2PoolRuntime;
+//# sourceMappingURL=types.d.ts.map
