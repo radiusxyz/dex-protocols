@@ -1,6 +1,6 @@
 import { buildTickBitmap, clearInitializedInBitmap, setInitializedInBitmap } from '../common/tick-math';
 
-import type { EkuboV2PoolInfo, EkuboV2PoolState, EkuboV2PoolUpdate, EkuboV2PoolRuntime } from './types';
+import type { EkuboV2PoolInfo, EkuboV2PoolRuntime, EkuboV2PoolState, EkuboV2PoolUpdate } from './types';
 
 export function createReducer() {
   function init(info: EkuboV2PoolInfo, state: EkuboV2PoolState): EkuboV2PoolRuntime {

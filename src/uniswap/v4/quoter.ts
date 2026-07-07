@@ -1,16 +1,11 @@
 import { MAX_SQRT_RATIO, MAX_TICK, MIN_SQRT_RATIO, MIN_TICK } from '../../core/clmm/constants';
 import { addLiquidity } from '../../core/clmm/swap-math';
-import {
-  getSqrtRatioAtTick,
-  getTickAtSqrtRatio,
-  nextInitializedTickWithinOneWord,
-} from '../../core/clmm/tick-math';
+import { getSqrtRatioAtTick, getTickAtSqrtRatio, nextInitializedTickWithinOneWord } from '../../core/clmm/tick-math';
 import type { Tick } from '../../core/clmm/types';
-import type { UniswapV4PoolRuntime } from './types';
-
 import { LPFeeLibrary } from './contract-math/LPFeeLibrary';
 import { ProtocolFeeLibrary } from './contract-math/ProtocolFeeLibrary';
 import { SwapMath } from './contract-math/SwapMath';
+import type { UniswapV4PoolRuntime } from './types';
 
 export type UniswapV4QuoterParams = {
   amountIn: bigint;

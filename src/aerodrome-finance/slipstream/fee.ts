@@ -6,7 +6,7 @@ import {
   SCALING_PRECISION,
   ZERO_FEE_INDICATOR,
 } from './constants';
-import { DynamicFeeConfig, Observation } from './types';
+import type { DynamicFeeConfig, Observation } from './types';
 
 type ObserveTickCumulativesParams = {
   blockTimestamp: number;
@@ -31,6 +31,8 @@ export function getSlipstreamDefaultBaseFeePips(tickSpacing: number): number {
       return 500;
     case 200:
       return 3000;
+    case 500:
+      return 10000;
     case 2000:
       return 10000;
     default:

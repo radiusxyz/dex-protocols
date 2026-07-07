@@ -9,6 +9,7 @@ describe('Slipstream fee defaults', () => {
     { tickSpacing: 50, expectedFeePips: 500 },
     { tickSpacing: 100, expectedFeePips: 500 },
     { tickSpacing: 200, expectedFeePips: 3000 },
+    { tickSpacing: 500, expectedFeePips: 10000 },
     { tickSpacing: 2000, expectedFeePips: 10000 },
   ])('maps tickSpacing=$tickSpacing to feePips=$expectedFeePips', ({ tickSpacing, expectedFeePips }) => {
     expect(getSlipstreamDefaultBaseFeePips(tickSpacing)).toBe(expectedFeePips);

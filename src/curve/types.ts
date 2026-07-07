@@ -1,6 +1,5 @@
-import { Addr } from '../types/index';
-
-import { CryptoSwapPoolInfo, CryptoSwapPoolState, CryptoSwapPoolUpdate } from '../core/cryptoswap/types';
+import type { CryptoSwapPoolInfo, CryptoSwapPoolState, CryptoSwapPoolUpdate } from '../core/cryptoswap/types';
+import type { Addr } from '../types/index';
 
 export type CurvePoolFamily = 'unknown' | 'stableswap' | 'cryptoswap';
 

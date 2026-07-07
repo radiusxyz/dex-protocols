@@ -1,7 +1,6 @@
-import { AMPLIFICATION_PRECISION, CURVE_FEE_DENOMINATOR, DECIMALS_TARGET, PRECISION } from './constants';
-import { StableSwapPoolInfo, StableSwapRuntime } from './types';
-
 import type { Addr } from '../../types/index';
+import { AMPLIFICATION_PRECISION, CURVE_FEE_DENOMINATOR, DECIMALS_TARGET, PRECISION } from './constants';
+import type { StableSwapPoolInfo, StableSwapRuntime } from './types';
 
 export type StableSwapQuoterParams<I extends StableSwapPoolInfo = StableSwapPoolInfo> = {
   amountIn: bigint;

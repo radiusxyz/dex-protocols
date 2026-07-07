@@ -16,7 +16,6 @@
       "types": "./dist/utils/*.d.ts",
       "default": "./dist/utils/*.js"
     }
-    
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -25,13 +24,19 @@
   ],
   "scripts": {
     "build": "rm -rf dist && tsc -p tsconfig.json",
-    "prepare": "pnpm run build",
+    "format": "biome format --write .",
+    "format:check": "biome format .",
+    "lint": "biome lint .",
+    "lint:fix": "biome check --write .",
+    "prepare": "husky",
     "test": "vitest run",
     "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.test.json",
-    "check": "pnpm run typecheck && pnpm run test"
+    "check": "pnpm run typecheck && pnpm run lint && pnpm run format:check && pnpm run test"
   },
   "devDependencies": {
+    "@biomejs/biome": "2.5.1",
     "@types/node": "^22.13.14",
+    "husky": "^9.1.7",
     "typescript": "^5.9.3",
     "vite-tsconfig-paths": "^6.0.4",
     "vitest": "^4.0.17"

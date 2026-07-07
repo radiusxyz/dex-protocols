@@ -1,5 +1,5 @@
-import type { UniswapV3PoolInfo, UniswapV3PoolState, UniswapV3PoolUpdate } from '../../src/uniswap/v3/types';
 import { getSqrtRatioAtTick } from '../../src/core/clmm/tick-math';
+import type { UniswapV3PoolInfo, UniswapV3PoolState, UniswapV3PoolUpdate } from '../../src/uniswap/v3/types';
 
 const LIQUIDITY = 1_000_000_000_000_000_000n;
 
